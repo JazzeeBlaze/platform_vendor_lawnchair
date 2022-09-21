@@ -7,7 +7,7 @@ LOCAL_MODULE_STEM := Lawnchair.apk
 LOCAL_MODULE_PATH := $(TARGET_OUT)/priv-app/Lawnchair
 LOCAL_SRC_FILES := Lawnchair.apk
 LOCAL_MODULE_CLASS := ETC
-LOCAL_OVERRIDES_PACKAGES := NexusLauncherRelease ParanoidQuickStep Launcher3QuickStep PixelLauncher TrebuchetQuickStep
+LOCAL_OVERRIDES_PACKAGES := Home Launcher2 Launcher3 NexusLauncherRelease ParanoidQuickStep Launcher3QuickStep PixelLauncher TrebuchetQuickStep
 
 LOCAL_PREBUILT_JNI_LIBS_arm := \
     lib/armeabi-v7a/libhoko_blur.so
